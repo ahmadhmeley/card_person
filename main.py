@@ -43,4 +43,4 @@ def id_queue(id: str):
         return result
 
     except Exception as e:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(e))
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="error")
